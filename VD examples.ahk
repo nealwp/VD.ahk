@@ -79,9 +79,15 @@ VD.createUntil(3) ;create until we have at least 3 VD
 return
 
 ;#useful stuff
-numpad1::VD.goToDesktopNum(1)
-numpad2::VD.goToDesktopNum(2)
-numpad3::VD.goToDesktopNum(3)
+!1::VD.goToDesktopNum(1)
+!2::VD.goToDesktopNum(2)
+!3::VD.goToDesktopNum(3)
+!4::VD.goToDesktopNum(4)
+!5::VD.goToDesktopNum(5)
+!6::VD.goToDesktopNum(6)
+!7::VD.goToDesktopNum(7)
+!8::VD.goToDesktopNum(8)
+!9::VD.goToDesktopNum(9)
 
 ;follow your window
 numpad4::VD.MoveWindowToDesktopNum("A",1), VD.goToDesktopNum(1)
