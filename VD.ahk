@@ -14,8 +14,8 @@ SetWinDelay -1
 SetControlDelay -1
 
 ;include the library
-#Include %A_LineFile%\..\VD.ahk
-
+#Include %A_LineFile%\..\_VD.ahk
+VD.init()
 ;you should WinHide invisible programs that have a window.
 WinHide, % "Malwarebytes Tray Application"
 ;#SETUP END
