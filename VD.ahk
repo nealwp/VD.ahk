@@ -16,6 +16,9 @@ SetControlDelay -1
 ;include the library
 #Include %A_LineFile%\..\_VD.ahk
 VD.init()
+VD.goToDesktopNum(2)
+Run, chrome.exe
+VD.goToDesktopNum(1)
 ;you should WinHide invisible programs that have a window.
 WinHide, % "Malwarebytes Tray Application"
 ;#SETUP END

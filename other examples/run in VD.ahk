@@ -9,11 +9,8 @@ SetBatchLines -1
 #Include %A_LineFile%\..\..\VD.ahk
 
 VD.startShellMessage()
-VD.Run("""C:\Program Files (x86)\Hourglass\Hourglass.exe""","","","","Hourglass.exe",2)
-VD.Run("""C:\Program Files (x86)\Hourglass\Hourglass.exe""","","","","Hourglass.exe",3)
-VD.Run("""C:\Program Files (x86)\Hourglass\Hourglass.exe""","","","","Hourglass.exe",4)
-
+VD.Run("""chrome.exe""","","","","chrome.exe",4)
 
 return
 
-f3::Exitapp
+f9::Exitapp
